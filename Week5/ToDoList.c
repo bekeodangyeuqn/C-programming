@@ -102,7 +102,7 @@ void deleteAToDo(int *id){
 			if (k->Data.id == *id){
 				g->next = k->next;
 				free(k);
-				return;
+				//return;
 			}
 			g = k;
 		}
