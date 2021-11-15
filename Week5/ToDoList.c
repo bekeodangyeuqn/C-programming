@@ -179,7 +179,7 @@ void Menu()
 		}
 		else if (luachon == 3)
 		{   int id;
-			printf("\nNhap gia tri id cua hoc sinh can xoa: ");scanf("%d",&id);
+			printf("\nNhap gia tri id cong viec can xoa: ");scanf("%d",&id);
 			deleteAToDo(&id);
 			xuatDS();
 			count = count -1;
@@ -187,7 +187,7 @@ void Menu()
 		}
 		else if (luachon == 4){
 			int id2;
-	        printf("\nNhap gia tri id cua hoc sinh can thay doi: ");scanf("%d",&id2);
+	        printf("\nNhap gia tri id cua cong viec can thay doi: ");scanf("%d",&id2);
 			modifyToDo(&id2);
 			xuatDS();
 			system("pause");

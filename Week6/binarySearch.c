@@ -1,13 +1,12 @@
 #include<stdio.h>
 
-#define MAX 100
 int count = 0,countR =0;
 typedef int T;
 
 void nhap(T M[],T *N){
 	int i;
 	for (i=0;i<*N;i++){
-		M[i] = (i*3) - 1;
+		M[i] = i+1;
 	}
 }
 
